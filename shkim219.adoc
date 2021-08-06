@@ -154,16 +154,18 @@ and we get the output:
 `+{'find': {'edges': []}}+`
 ****
 
+
+
 === maven ===
 
-.delete
+.maven
 ****
-delete will remove all of the entries associated with a file given the input of the filename
+maven will set up the files necessary for the machine learning algorithms
 
 Running the code: + 
 
 [sidebar]
-`+shkim219 delete features.csv+`
+`+shkim219 maven+`
 
 .Example Output
 [source,js]
@@ -171,15 +173,24 @@ Running the code: +
 None
 ----
 
-This means that there are now no data related to the filename. We can check by using the `+getfiles+` method
+This means that you are now ready to use the machine learning algorithms
 
-[sidebar]
-`+shkim219 getfiles+`
 
-and we get the output:
 
-[sidebar]
-`+{'find': {'edges': []}}+`
+
+=== kmeans ===
+
+.kmeans
 ****
+kmeans will run a kmeans algorithm based on the file you want to run it on
+
+Running the code: + 
+
+[sidebar]
+`+shkim219 kmeans features.csv+`
+
+
+
+
 
 
