@@ -47,6 +47,9 @@ There are *four* programs that can currently be run: +
 * `+insert+`
 * `+retrieve+`
 * `+delete+`
+* `+maven+`
+* `+kmeans+`
+* `+randomForest+`
 
 We will go over what these methods do +
 
@@ -150,3 +153,33 @@ and we get the output:
 [sidebar]
 `+{'find': {'edges': []}}+`
 ****
+
+=== maven ===
+
+.delete
+****
+delete will remove all of the entries associated with a file given the input of the filename
+
+Running the code: + 
+
+[sidebar]
+`+shkim219 delete features.csv+`
+
+.Example Output
+[source,js]
+----
+None
+----
+
+This means that there are now no data related to the filename. We can check by using the `+getfiles+` method
+
+[sidebar]
+`+shkim219 getfiles+`
+
+and we get the output:
+
+[sidebar]
+`+{'find': {'edges': []}}+`
+****
+
+
