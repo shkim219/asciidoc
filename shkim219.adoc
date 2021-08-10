@@ -177,7 +177,6 @@ This means that you are now ready to use the machine learning algorithms
 
 
 
-
 === kmeans ===
 
 .kmeans
