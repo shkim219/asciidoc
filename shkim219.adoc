@@ -174,7 +174,36 @@ None
 ----
 
 This means that you are now ready to use the machine learning algorithms
+****
 
+
+
+=== randomForest ===
+
+.randomForest
+****
+randomForest will run a random forest algorithm on the input file
+
+Running the code: + 
+
+[sidebar]
+`+shkim219 randomForest features.csv+`
+
+.Example Output
+[source,js]
+----
+What to predict on?
+1. area
+...
+
+1
+Analyzing area
+>>> Error Averages: [0.05091177118212608] on 629 number of data
+
+>>> Combined Error Average: 0.05091177118212608 on 1 number of features on 629 number of data
+----
+
+****
 
 
 === kmeans ===
@@ -188,8 +217,19 @@ Running the code: +
 [sidebar]
 `+shkim219 kmeans features.csv+`
 
+.Example Output
+[source,js]
+----
+3 images found. Proceed or use custom? [Y/Custom] Default: Custom
+Custom
+How many clusters?
+1
+z = 2 is the standard for finding outliers. Proceed or use custom? [Y/Custom]
+Custom
+What Threshold?
+1
+426 outliers found
+----
 
-
-
-
+This means that you are now ready to use the machine learning algorithms
 
