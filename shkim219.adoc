@@ -50,6 +50,8 @@ There are *four* programs that can currently be run: +
 * `+maven+`
 * `+kmeans+`
 * `+randomForest+`
+* `+getoutlierfiles+`
+
 
 We will go over what these methods do +
 
@@ -231,5 +233,23 @@ What Threshold?
 426 outliers found
 ----
 
-This means that you are now ready to use the machine learning algorithms
+****
+
+=== getoutlierfiles === 
+
+.getoutlierfiles 
+****
+getoutlierfiles will return how many outliers are stored in the new app
+
+Running the code: + 
+[sidebar]
+`+shkim219 getoutlierfiles+`
+
+.Example Output
+[source,js]
+----
+{'find': {'edges': []}}
+----
+
+****
 
